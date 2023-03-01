@@ -1,0 +1,201 @@
+
+
+.BannerLogo{
+    background-image:url("src\assets\img\bannerArgProg.png");
+    background-repeat: no-repeat;
+   width:1200px;
+     height:400px;
+     
+    
+}
+.RedesSociales{
+   
+    position:absolute;
+    top: 5px;
+    left: 300px;
+
+
+}
+.RedesSociales1{
+    
+    position:absolute;
+    top: 5px;
+    left: 500px;
+
+
+}
+.RedesSociales2{
+   
+    position:absolute;
+    top: 5px;
+    left: 550px;
+   
+
+}
+.RedesSociales3{
+
+    position:absolute;
+ 
+    top: 5px;
+    left: 600px;
+
+ 
+
+}
+.RedesSociales4{
+
+    position:absolute;
+ 
+    top: 5px;
+    left: 650px;
+
+ 
+
+}
+.FotoPerfil{
+  
+    position:absolute;
+    top: 400px;
+    left: 50px;
+    
+
+}
+.FotoPerfil h1{
+    position:relative;
+    top: 10px;
+    left: -20px;
+}
+
+
+.ButtonLoginsession{
+    position:absolute;
+    width: 80px;
+    height: 30px;
+    top: 5px;
+    left: 1130px;
+}
+
+.InformacionPersonal{
+    /*position:relative;*/
+    margin-left: 5px;
+    margin-top: 150px;
+    /*posicion absolute
+       margin-left: 5px;
+    margin-top: 150px;
+    */
+
+}
+.EXPERIENCIALABORAL{
+    /*position:relative;*/
+    margin-left: 5px;
+    margin-top:5px;
+        /*posicion absolute
+       margin-left: 5px;
+    margin-top: 300px;
+    */
+
+
+}
+.Educacion{
+    /*position:relative;*/
+    margin-left: 5px;
+    margin-top:5px;
+        /*posicion absolute
+       margin-left: 5px;
+    margin-top: 400px;
+    */
+
+}
+.HardAndSoftSkills{
+    /*position:relative;*/
+    margin-left: 5px;
+    margin-top:5px;
+        /*posicion absolute
+       margin-left: 5px;
+    margin-top: 400px;
+    */
+}
+.porcentajeimgp{
+
+position: relative;
+top: -50px;
+left: 250px;
+
+
+}
+.porcentajeimg{
+
+    position: relative;
+    top: -40px;
+    left: 250px;
+    width: 132px;
+    height: 132px;
+    
+    }
+    .porcentajeimg2p{
+
+        position: relative;
+        top: -50px;
+        left: 250px;
+        
+        
+        }
+.porcentajeimg2{
+    
+
+    position: relative;
+   margin-top: -70px;
+    left: 250px;
+    width: 150px;
+    height: 150px;
+
+    
+    }
+   
+    .editar{
+        position: absolute;
+        margin-top:-60px;
+        margin-left: 950px;
+    }
+    .eliminar{
+        position: absolute;
+        margin-top:-60px;
+        margin-left: 1100px;
+    }
+    .editarExperiencialaboral{
+        position: absolute;
+        margin-top:-20px;
+        margin-left: 950px;
+    }
+    .eliminarExperiencialaboral{
+        position: absolute;
+        margin-top:-20px;
+        margin-left: 1100px;
+    }
+    .editarEducacion{
+        position: absolute;
+        margin-top:-20px;
+        margin-left: 950px;
+    }
+    .eliminarEducacion{
+        position: absolute;
+        margin-top:-20px;
+        margin-left: 1100px;
+  
+    }
+    .SessionIniciada{
+        position: absolute;
+        margin-top:-400px;
+        margin-left: 950px;
+        color:rgb(22, 247, 22);
+    }
+    .ButtonLogoutSession{
+        position:absolute;
+        width: 80px;
+        height: 30px;
+        top: 5px;
+        left: 1130px;
+    }
+
+
+ 

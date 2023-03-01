@@ -1,0 +1,60 @@
+
+
+<div
+  class="modal"
+  tabindex="-1"
+  role="dialog"
+  [ngStyle]="{'display':displayStyle}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Editar</h4>
+      </div>
+      <div class="modal-body">
+        <div class="col-sm-3 offset-sm-3">
+  
+
+            <!--Usamos Binging de angular para llamar al método del .ts asociado-->
+            <!--La sintaxis [()] BananaInBox es un Two-Way Binding-->
+            <form  (ngSubmit) = "onSubmitForm()">
+       
+              <div class="form-group">
+                <label> Id</label>
+                <input type="text" class ="form-control" id = "id"
+                    [(ngModel)] = "pPersona.id" name = "id" 
+                 required="required" >
+          
+            </div>
+                <div class="form-group">
+                    <label> Editar</label>
+                    <textarea [(ngModel)] = "pPersona.informacion"  id = "informacion"
+                         name = "informacion"  placeholder="Editar Datos"
+   ></textarea>
+                </div>
+           
+                <button class = "btn btn-success" type ="submit">Submit</button>
+  <br><br>
+  <h3>{{pDatosEditados}}</h3>
+            </form>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" 
+                (click)="closePopup()">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  <div class="EXPERIENCIALABORAL"><fieldset><span>EXPERIENCIA LABORAL</span>
+    <p>Puesto:Diseñador grafico en taller de Diseño Grafico,Año:2013-2016<br>
+    Puesto:Tecnico y atencion al publico en Servicio Tecnico de Smartphones,Tablets,Notebooks,Año:2018-2022
+  </p>
+  </fieldset>
+  </div>
+
+  
